@@ -1,0 +1,59 @@
+<h1>Registration Form</h1>
+<form action="/process" method="post">
+    <div>
+        <label for="F_name">First Name: *</label>
+        <input type="text" name="F_name" id="F_name">
+    </div>    
+    <div>
+        <label for="L_name">Last Name: *</label>
+        <input type="text" name="L_name" id="L_name">
+    </div>
+    <div>
+        <label for="email">Email Address: *</label>
+        <input type="email" name="email" id="email">
+    </div>
+    <div>
+        <label for="password">Password: *</label>
+        <input type="password" name="password" id="password">
+    </div>
+    <div>
+        <label for="password">Confirm Password: *</label>
+        <input type="password" name="password" id="password">
+    </div>
+    <div>
+        <label for="dob">Birthday: *</label>
+        <input type="date" name="dob" id="dob">
+    </div>  
+ 
+    <div>
+        <label for="gnd">Gender Identity:</label>  
+    </div> 
+
+    <div>
+        <input type="radio" name="gender" id="" value="1">
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" id="" value="2">
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" id="" value="3">
+        <label for="Non-binary">Non-binary</label>
+        <input type="radio" name="gender" id="" value="4">
+        <label for="Iprefer">I prefer not to answer</label>
+    </div>
+    <p>A short description about myself:</p>
+    <textarea name="comment" cols="50" rows="2"></textarea>
+    <div>
+        <label>Favorite Language:</label>
+        <select name="language">
+            <option>Javascript</option>
+            <option>Python</option>
+            <option>C##</option>
+            <option>Ruby</option>
+        </select>
+    </div>
+    <input type="checkbox" name="check" ID="check"></div>
+    <label for="check">Yes, I would like to receive periodic email updates</label>
+    <div>
+        <input type="submit" value="Create Account">
+    </div>    
+    <p>* Indicates a required field</p>
+</form>
